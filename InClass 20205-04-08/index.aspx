@@ -51,7 +51,11 @@
             </asp:Table>
 
             <asp:Table ID="Table1" runat="server">
-                <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
+                    </asp:TableCell>
+                </asp:TableRow>
             </asp:Table>
         </div>
     </form>
